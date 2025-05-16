@@ -62,10 +62,10 @@
         
         #home {
             display: block;
-            padding-left: 120px !important; 
-            margin-right: 600px; /* Adds a margin to the right side */
+            margin-left: 120px; 
+            padding-right: 120px; 
             word-wrap: break-word;
-            max-width: calc(100% - 720px);
+            max-width: calc(100% - 120px); 
         }
         
         #map iframe {
@@ -83,6 +83,12 @@
             flex-direction: column;
             gap: 25px;
             z-index: 1000;
+        }
+
+        .resized-img {
+            width: auto;
+            height: 300px;
+            margin: 10px; 
         }
         
         .circle-button {
@@ -162,7 +168,7 @@
             <ul>
                 <li><a onclick="showSection('home')">Home</a></li>
                 <li><a onclick="showSection('map')">Map</a></li>
-                <li><a onclick="showSection('contact')">Contact</a></li>
+                <li><a onclick="showSection('contact')">About</a></li>
             </ul>
         </nav>
     </header>
@@ -175,35 +181,41 @@
             <a href="#first-united" class="circle-button">First United Methodist</a>
             <a href="#all-souls" class="circle-button">All Souls</a>
             <a href="#trinity-pres" class="circle-button">Trinity Presbyterian</a>
+            <a href="#petco" class="circle-button">Petco Park</a>
         </div>
 
         <h1 id="la-jolla-presbyterian">La Jolla Presbyterian</h1>
 
-        <img src="images/LaJollaPres1.jpg" alt="LaJollaPres1">
-        <img src="images/LaJollaPres2.jpg" alt="LaJollaPres2">
+        <div style="text-align: center;">
+        <img src="images/LaJollaPres1.jpg" alt="LaJollaPres1" class="resized-img">
+        <img src="images/LaJollaPres2.jpg" alt="LaJollaPres2" class="resized-img">
+        <p>Images from: <a href="https://agosd.org/resources/area-organs/la-jolla-presbyterian-church" target="_blank">AGO San Diego La Jolla Presbyterian</a>
+       </p>
+         </div>
     
         <p>Growing up in San Diego, I’ve driven past La Jolla Presbyterian many times and visited on several occasions. 
             I attended school down the road at La Jolla High School and often visited the park and tennis courts across 
             the street.</p>
     
-        <p>La Jolla Presbyterian is located at <strong>7715 Draper Ave, La Jolla, California</strong>. 
+        <p>La Jolla Presbyterian is located at 7715 Draper Ave, La Jolla, California. 
             The church has a campus with spaces for fellowship, offices, classrooms, and traditional and 
-            contemporary services. The organ is in the sanctuary where traditional services are held.</p>
-
-        <p>The sanctuary is in the shape of a cross, with a triangular arched ceiling. The majority of the pipes 
+            contemporary services. The organ is in the sanctuary where traditional services are held.
+            
+            The sanctuary is in the shape of a cross, with a triangular arched ceiling. The majority of the pipes 
             are located on the front wall such that the pipes speak directly towards the congregation, while the 
             antiphonal pipes are located on the back wall behind the pews. The console is located at the front and 
             can be moved around to accommodate the occasion. In 1957, La Jolla Presbyterian installed a three-manual Möller 
-            pipe organ, which later was replaced with a four-manual console in 1976. In 1998, facing air as well as mechanical 
-            issues, L.W. Blackington Associates developed a plan for the future of the instrument. The current installation has 
-            64 ranks and 3,651 individual pipes. For more information, please visit 
-            <a href="https://www.example.com" target="_blank">La Jolla Presbyterian’s website</a>.</p>
+            pipe organ, which later was replaced with a four-manual console in 1976.<sup><a href="#cite1" id="ref1">1</a></sup> 
+            In 1998, facing air as well as mechanical issues, L.W. Blackington Associates developed a plan for the future of the 
+            instrument. The current installation has 64 ranks and 3,651 individual pipes. For more information, please visit 
+            <a href="https://ljpres.org/" target="_blank">La Jolla Presbyterian’s website</a>.</p>
     
         <p>I met with La Jolla Presbyterian organist, Jenny Yun, on January 13, 2025. Jenny has 20 years of experience as an 
-            organist playing for Lutheran as well as Episcopal churches and has been at La Jolla Presbyterian for one year. Her 
-            musical background is classical, but she has also been exposed to contemporary styles, having attended a church with 
-            contemporary music growing up. Our conversation centered around musical appreciation as well as the demographics of La 
-            Jolla Presbyterian. The big-ticket item we discussed: “How do you share organ music with others?”</p>
+            organist playing for Lutheran as well as Episcopal churches and has been at La Jolla Presbyterian for one 
+            year.<sup><a href="#cite2" id="ref2">2</a></sup> Her musical background is classical, but she has also been exposed 
+            to contemporary styles, having attended a church with contemporary music growing up. Our conversation centered around 
+            musical appreciation as well as the demographics of La Jolla Presbyterian. The big-ticket item we discussed: “How do 
+            you share organ music with others?”</p>
 
         <p>At La Jolla Presbyterian, the congregation is generally older and prefers traditional music. Additionally, many 
             congregation members are retired professional musicians and are actively engaged with the organ. Jenny explained 
@@ -219,85 +231,84 @@
             other reasons. Considering other places of worship in San Diego, there is a broad range from classical services with 
             choirs and organs, to small praise bands or solo instrumentalists, to full bands at mega churches. Then, it follows to 
             ask where and how are the younger generations encountering organ music? Through investigating the other organs in San Diego, 
-            we can answer this question more thoroughly. </p>
+            we can answer this question more thoroughly.</p>
     
-        <h3>Links to Sources / More Information</h3>
-        <ul>
-            <li><a href="https://www.example.com" target="_blank">La Jolla Presbyterian Organ Specifications</a></li>
-            <li><a href="https://www.example.com" target="_blank">About the La Jolla Pres Pipe Organ</a></li>
-        </ul>
-
         <h1 id="first-unitarian">First Unitarian Universalist Church</h1>
 
-        <img src="images/FUU1.jpg" alt="FUU1">
-        <img src="images/FUU2.jpg" alt="FUU2">
-        <img src="images/FUU3.jpg" alt="FUU3">
-        <img src="images/FUU4.jpg" alt="FUU4">
+        <div style="text-align: center;">
+        <img src="images/FUU1.jpg" alt="FUU1" class="resized-img">
+        <img src="images/FUU2.jpg" alt="FUU2" class="resized-img">
+        <img src="images/FUU4.jpg" alt="FUU4" class="resized-img">
+        <p>Images from Sam Rudenberg's phone camera.</p>
+        </div>
     
-        <p>In middle school, I had the opportunity to play the FUU organ in the Southern California Junior Bach Festival.</p>
+        <p>In middle school, I had the opportunity to play the First Unitarian Universalist (FUU) organ in the Southern 
+            California Junior Bach Festival.</p>
     
-        <p>First Unitarian Universalist church is located at 298 W Arbor Dr., San Diego, California. This is in San Diego’s 
+        <p> First Unitarian Universalist church is located at 298 W Arbor Dr., San Diego, California. This is in San Diego’s 
             Hillcrest neighborhood, which is considered an LGBTQ+ hub and is home to the annual pride parade and the largest 
             concentration of LGBTQ-owned businesses in the city. This is key to the identity of the staff and congregation at 
             FUU, as they pride themselves on inclusivity, supporting people of various beliefs, ages, backgrounds, and 
-            identities. <a href="https://www.sandiego.gov/citycouncil/cd3/communities/hillcrest" target="_blank">Hillcrest</a></p>
+            identities. Learn more about Hillcrest, San Diego here: <a href="https://www.sandiego.gov/citycouncil/cd3/communities/hillcrest" target="_blank">Hillcrest</a></p>
 
-        <p>The organ at FUU is located at the front right of the sanctuary. The organist sits with their back to a wall of 
+        <p> The organ at FUU is located at the front right of the sanctuary. The organist sits with their back to a wall of 
             floor to ceiling windows while the pipes are positioned to their right. The sanctuary is a semi-circle and slopes 
             downwards, positioned on the crest of a hill. The organ at FUU was originally installed by Abbott and Sieker in 
             1969. In 2002, resident organist Ken Herman contacted Marceau & Associates to update the instrument. The project 
             included a new console, façade, and tonal additions while attempting to preserve the tonal and mechanical designs 
-            of the original builders. <a href="https://www.thediapason.com/new-organs-77" target="_blank">Diapason</a></p>
+            of the original builders.<sup><a href="#cite3" id="ref3">3</a></sup></p>
 
-        <p>I met with Tómas Acosta, the organist at FUU on Sunday, January 5th, 2025. Tomas serves as the choral director as 
-            well as pianist for the church and occasionally plays hymns on the organ. He does not strongly identify as an 
-            organist, and just recently began lessons with the past music director and organist, Ken Herman. Tomas told me 
-            that the congregation at FUU thinks very highly of their organ and wished so badly to hear it played that they 
-            started a fund to pay for him to take lessons, which he began a year ago. </p>
+        <p> I met with Tómas Acosta, the organist at FUU on Sunday, January 5th, 2025. Tomas serves as the choral director as 
+            well as pianist for the church and occasionally plays hymns on the organ.<sup><a href="#cite4" id="ref4">4</a></sup>
+            He does not strongly identify as an organist, and just recently began lessons with the past music director and organist, 
+            Ken Herman. Tomas told me that the congregation at FUU thinks very highly of their organ and wished so badly to hear it played that they 
+            started a fund to pay for him to take lessons, which he began a year ago.</p>
 
-        <p>The organ at FUU is in need of care. The large glass window to the organ’s right lets sunlight in and warms up 
+        <p> The organ at FUU is in need of care. The large glass window to the organ’s right lets sunlight in and warms up 
             the pipes, causing them to tend sharp. The stops at the console need new emblems as some of them have begun to 
             fade. Stepping back from the organ and thinking about the entire church building, FUU is located next to UCSD 
             Hillcrest Medical Campus, and as UCSD continues to grow their property, it is uncertain how this will affect the 
             future of FUU. </p>
 
-        <p>Shifting gears to consider the space and those who use it, the community at FUU is what sets it apart from the 
+        <p> Considering the space and those who use it, the community at FUU is what sets it apart from the 
             other locations I visited. There is a strong sense of community, and the members of the congregation are 
             welcoming to people of all identities. The congregation is mostly older, but there are many young children at 
             the services as well. In addition to solo music from Tomas, FUU is home to four different choirs: Chalice 
             Choir-a mixed community choir, Women’s choir, JUUL Tones-an acapella group, and South Bay Singers-a multicultural, 
-            multigenerational group who performs more eccentric, modern tunes. It is also key to note that when singing hymns 
-            and other worship songs, FUU alternates versus of English and Spanish. </p>
+            multigenerational group who performs more eccentric, modern tunes.<sup><a href="#cite5" id="ref5">5</a></sup> 
+            It is also key to note that when singing hymns and other worship songs, FUU alternates versus of English and Spanish. </p>
 
-        <p>The next organ we will explore serves another congregation where diversity and culture thrive. Like FUU, the 
+        <p> The next organ we will explore serves another congregation where diversity and culture thrive. Like FUU, the 
             Immaculata serves people from diverse backgrounds, and services include singing in English, Latin and Spanish. </p>
-    
-        <h3>Links to Sources / More Information</h3>
-        <ul>
-            <li><a href="https://www.firstuusandiego.org/hillcrest-campus.html" target="_blank">FUU Hillcrest</a></li>
-        </ul>
 
         <h1 id="immaculata">Immaculata</h1>
+
+        <div style="text-align: center;">
+        <img src="images/Immaculata2.jpg" alt="FUU1" class="resized-img">
+        <img src="images/Immaculata3.jpg" alt="FUU2" class="resized-img">
+        <img src="images/Immaculata4.jpg" alt="FUU3" class="resized-img">
+        <img src="images/Immaculata5.jpg" alt="FUU4" class="resized-img">
+        <p>Images from Sam Rudenberg's phone camera.</p>
+        </div>
 
         <p>Growing up, I would see the towers of the Immaculata in the distance when driving by or playing tennis, 
             and I would occasionally visit USD’s campus where the church is located, although I had never been inside 
             the Immaculata before this visit.</p>
 
-        <p>The Immaculata is located on University of San Diego’s campus at 5998 Alcala Park Way, San Diego, California. 
-            It is not owned by the college, yet it does serve both students and community members.</p>
-
-        <p>The sanctuary at the Immaculata is in the shape of a cross, with soaring rounded arched ceilings typical of 
+        <p> The Immaculata is located on University of San Diego’s campus at 5998 Alcala Park Way, San Diego, California. 
+            It is not owned by the college, yet it does serve both students and community members.<sup><a href="#cite6" id="ref6">6</a></sup>
+            The sanctuary at the Immaculata is in the shape of a cross, with soaring rounded arched ceilings typical of 
             Catholic churches. The organ console and pipes are all located in the back balcony of the church. The organ 
             at the Immaculata is a 1973 Rudolf von Beckerath tracker organ, originally built for Mission San Luis Rey 
             Church before being moved to the Immaculata.</p>
 
-        <p>I visited with the Immaculata’s current organist, Guadalupe Rios, on Tuesday, January 7th, 2025. Lupe 
+        <p> I visited with the Immaculata’s current organist, Guadalupe Rios, on Tuesday, January 7th, 2025. Lupe 
             identifies as a pianist, composer, and choral director. Before studying music in college, he had no 
             professional training but quickly picked up necessary skills such as reading sheet music in music theory 
             courses. Lupe does not identify as a trained organist, but as I learned more about him and the Immaculata, 
             I realized this likely plays to his advantage in a variety of ways.</p>
 
-        <p>As the organist at the Immaculata, Lupe is responsible for multiple masses throughout the day. The first mass 
+        <p> As the organist at the Immaculata, Lupe is responsible for multiple masses throughout the day. The first mass 
             of the day is more traditional and services an older generation, while the services become more contemporary, 
             with a younger crowd as the day goes on. What effect does this have on the music Lupe selects? He shared with 
             me that the older generation enjoyed traditional organ tunes, while the younger generation preferred more 
@@ -307,59 +318,56 @@
             Spanish. Between the range of instrumentation and the cultural elements, this is where Lupe’s musical background 
             shines, as he can bring in his culture to perform his own arrangements and improvisations.</p>
 
-        <p>Lupe described to me that in Catholicism, those who attend church should focus their attention on the message. 
+        <p> Lupe described to me that in Catholicism, those who attend church should focus their attention on the message. 
             This doesn’t mean that the music isn’t important, as it helps progress the service, but a congregation member’s
              attention should be on worshipping God. This can be seen as Lupe is hidden from view in the balcony at the back 
              of the church. When at the console, his view is completely blocked by the pipes, so he must make use of screens 
              to time his entrances. </p>
 
-        <p>Shifting focus to the organ, the first thing one notices is that while it is large, it is still too small for the 
+        <p> The first thing one notices is that while it is large, it is still too small for the 
             Immaculata. The church forms the shape of a cross, with the sanctuary at the intersection point and pews extending 
             in all four directions. Lupe estimated that the organ is about a third of the size it should be to fill the space. 
-            As I walked out to the sanctuary, the sound was weak even on full organ. The organ is a two manual, mechanical 
-            action with no pistons. As the church is quite deep and tall and the floors are marble, the reverberation was very
-            long. It became very apparent listening to the organ how crucial it was to time registration changes precisely 
-            while the sound decayed. </p>
+            This is because the instrument was moved from Mission San Luis Rey, and wasn't intentionally designed or modified for
+            the Immaculata. Organists Jared Jacobsen and Alison Luedecke describe the effect of the move:</p> 
 
-        <p>Organists Jared Jacobsen and Alison Luedecke describe the effect of the move. 
-            “Unfortunately, that’s what happened at the Immaculata, where we find a transplant with a story: we used to hear 
+        <p>“Unfortunately, that’s what happened at the Immaculata, where we find a transplant with a story: we used to hear 
             its modestly sized, exquisitely beautiful von Beckerath organ in what Jared Jacobsen calls perfect, jewel-box 
             acoustics at the Mission San Luis Rey; now we try to hear it in the acoustically tiled, cavernous Immaculata. 
             Because it doesn’t reach the altar from the loft, the priest would ask the organist to play a little louder, when 
             she (now he) was playing as loud as she could or ought to. Alison Luedecke, the previous resident organist there, 
             tells me that the Immaculata action (the term for what connects pipes to keys) isn’t good and needs redoing: too 
-            many compromises were made when the church installed an organ that was too small for the house.” 
-            https://www.sandiegoreader.com/news/1998/apr/09/cover-then-gabriel-said-the-pipe-organs-of-san-di/ 
-            “Pipe Organ Database” 
-            </p>
+            many compromises were made when the church installed an organ that was too small for the house.”<sup><a href="#cite7" id="ref7">7</a></sup>
+        </p>
 
-        <p>The Immaculata demonstrates the role of the organ in Catholic churches: the music is not the main part of mass, 
-            God is.  The organist is hidden and placed at the back of the church. When the musician plays the piano in the 
+        <p> As I walked out to the sanctuary, the sound was weak even on full organ. The organ is a two manual, mechanical 
+            action with no pistons. As the church is quite deep and tall and the floors are marble, the reverberation was very
+            long. It became very apparent listening to the organ how crucial it was to time registration changes precisely 
+            while the sound decayed. </p>
+
+        <p> The Immaculata demonstrates the role of the organ in Catholic churches: the music is not the main part of mass, 
+            God is. The organist is hidden and placed at the back of the church. When the musician plays the piano in the 
             sanctuary, some members of the congregation are offended.</p>
 
-        <p>Rios has received comments that some members of his congregation prefer his arrangements and playing on the organ 
-            even though it veers from a that of a classically trained organist: members of the church grow up with traditional 
-            hymn tunes, but those who are newer to the church may find traditional music more bland that that which uses the 
-            organ as a medium to bring in other cultures and excitement -> this could be a good way to share the organ, social 
-            media influencers also help this mission.</p>
+        <p> Rios has received comments that some members of his congregation prefer his arrangements and playing on the organ 
+            even though it veers from a that of a classically trained organist. This plays to the idea that members of the church 
+            perhaps grew up with traditional hymn tunes, but those who are newer to the church may find traditional music more 
+            bland than contemporary worship tunes.</p>
 
-        <p>There is a push and pull as the Catholic church focuses on the message and mission towards God and not the music, 
-            but at the same time a musician wants to be recognized and appreciated for the work they are putting in (should 
-            people clap after the postlude of a service?) </p>
-
-        <h3>Images</h3>
-        <div class="image-container">
-            <img src="image1.jpg" alt="SAMPLE TEXT" class="responsive-img">
-        </div>
-    
-        <h3>Links to Sources / More Information</h3>
-        <ul>
-            <li><a href="ExampleLink.com" target="_blank">Immaculata</a></li>
-        </ul>
+        <p> There is a push and pull as the Catholic church focuses on the message and mission towards God and not the music, 
+            but at the same time a musician wants to be recognized and appreciated for the work they are putting in: should 
+            people clap after the postlude of a service? Up next is a church whose congregation shamelessly applauds their organist 
+            as well as the the other musical guests in their space.</p>
 
         <h1 id="first-united">First United Methodist Church</h1>
 
-        <p>First United Methodist Church is home to two organs, one in the main sanctuary and another in a small chapel. 
+        <div style="text-align: center;">
+        <img src="images/FUMC2.jpg" alt="FUU1" class="resized-img">
+        <img src="images/FUMC3.jpg" alt="FUU1" class="resized-img">
+        <img src="images/FUMC1.jpg" alt="FUU1" class="resized-img">
+        <p>Images from Sam Rudenberg's phone camera.</p>
+        </div>
+
+        <p>First United Methodist Church (FUMC) is home to two organs, one in the main sanctuary and another in a small chapel. 
             Growing up in San Diego, I’ve had the opportunity to play the organ in the chapel for AGO competitions and attend 
             concerts and events in the main sanctuary.</p>
 
@@ -370,12 +378,15 @@
             at FUMC is the largest in San Diego County, with pipes located at the front and back of the building creating a 
             sort of surround sound experience for those sitting in the pews. The console is located at the front right of the 
             building next to benches for the choir. Built by L.W. Blackington and Associates in 1988, the organ boasts 9 divisions, 
-            107 ranks, and 5,952 pipes.</p>
+            108 ranks, and 6,092 pipes.<sup><a href="#cite8" id="ref8">8</a></sup></p>
+
+        <p>For a complete list of stops, see the attached link: <a href="https://s3.amazonaws.com/account-media/31550/uploaded/s/0e7039303_1619554794_sanctuary-pipeorgan-stoplists.pdf" target="_blank">FUMC Organ Specifications</a>.</p>
+        <p>For videos of the organ, please see FUMC's youtube channel: <a href="https://www.youtube.com/playlist?list=PLFDbyYMlcgPrCVmK9SvewNXyseCCLxpjx" target="_blank">FUMC Organ Youtube</a>.</p>
 
         <p>I visited with Sarah Amos at First United Methodist Church on Tuesday, January 7th, 2025. Sarah had just recently 
-            started at FUMC in November 2024. Before FUMC she had been the organist for San Dieguito United Methodist Church. 
-            At first glance, the console can be very overwhelming. When I asked Sarah if she felt this way, she replied that she 
-            wished it had more settings.</p>
+            started at FUMC in November 2024.<sup><a href="#cite9" id="ref9">9</a></sup> Before FUMC she had been the organist 
+            for San Dieguito United Methodist Church. At first glance, the console can be very overwhelming. When I asked Sarah 
+            if she felt this way, she replied that she wished it had more settings.</p>
 
         <p>The organ at FUMC has two sets of pipes: chancel and gallery. From the console, the organist can pull stops from one set 
             or both at the set time, effectively creating directed or surround sound in the church. Even though the floor is 
@@ -389,32 +400,29 @@
 
         <p>As Sarah was still new to her position at FUMC, she had questions about small technical ins and outs of the instrument 
             herself. This is a great example of the power of the organ, as well as the fact that two installations are rarely the 
-            same. </p>
-
-        <h3>Images</h3>
-        <div class="image-container">
-            <img src="image1.jpg" alt="SAMPLE TEXT" class="responsive-img">
-        </div>
-    
-        <h3>Links to Sources / More Information</h3>
-        <ul>
-            <li><a href="https://s3.amazonaws.com/account-media/31550/uploaded/s/0e7039303_1619554794_sanctuary-pipeorgan-stoplists.pdf" target="_blank">Organ Specifications</a></li>
-            <li><a href="https://www.youtube.com/playlist?list=PLFDbyYMlcgPrCVmK9SvewNXyseCCLxpjx" target="_blank">Youtube</a></li>
-        </ul>
+            same.</p>
 
         <h1 id="all-souls">All Souls</h1>
 
-        <p>Similarly to the chapel at FUMC, I was originally introduced to the organ at All Souls through AGO competitions.</p>
+        <div style="text-align: center;">
+        <img src="images/AllSouls2.jpg" alt="FUU1" class="resized-img">
+        <img src="images/AllSouls1.jpg" alt="FUU1" class="resized-img">
+        <img src="images/AllSouls3.jpg" alt="FUU1" class="resized-img">
+        <img src="images/AllSouls6.jpg" alt="FUU1" class="resized-img">
+        <p>Images from Sam Rudenberg's phone camera.</p>
+        </div>
 
-        <p>All Souls is located at 1475 Catalina Blvd, San Diego, California. The space is used for church services, organ 
+        <p> Similarly to the chapel at FUMC, I was originally introduced to the organ at All Souls through AGO competitions.</p>
+
+        <p> All Souls is located at 1475 Catalina Blvd, San Diego, California. The space is used for church services, organ 
             masterclasses, and San Diego Bach Collegium among other events.</p>
 
-        <p>The instrument at All Souls was Fritts & Richard organ builder’s Opus #5. Inspired by 17th century Northern German 
-            organs, the installation was designed for clarity, strength and richness of tone. The instrument was dedicated 
-            April 6th, 1986. </p>
+        <p> The instrument at All Souls was Fritts & Richard organ builder’s Opus #5.<sup><a href="#cite10" id="ref10">10</a></sup> 
+            Inspired by 17th century Northern German organs, the installation was designed for clarity, strength and richness of tone. 
+            The instrument was dedicated April 6th, 1986.</p>
         
-        <p>I visited with Ruben Valenzuela at All Souls on Tuesday, January 7th, 2025. Before the Fritts & Richard organ, the 
-            previous installation was positioned in the back balcony, and the pipes lined where in the shutters of the walls. 
+        <p> I visited with Ruben Valenzuela at All Souls on Tuesday, January 7th, 2025. Before the Fritts & Richard organ, the 
+            previous installation was positioned in the back balcony, and the pipes lined where in the shutters of the walls.<sup><a href="#cite11" id="ref11">11</a></sup> 
             Currently, the organ console is found on the right wall when facing the sanctuary, and all the pipes are closed in, 
             in or above the organ console, with a few pedal pipes to the console’s immediate left. As opposed to other organs 
             with pipes housed The organ is mechanical action, and it is in unequal temperament. Notable features at the console 
@@ -422,79 +430,197 @@
             and a very decorative façade with sea creatures. Every pipe above the console is speaking excerpt for the middle pipe, 
             which is home to a sea star shaped zimbelstern.</p>
 
-        <p>Where does this instrument perform well, and where does it struggle? The organ is designed for music dating pre-Bach. 
+        <p> Where does this instrument perform well, and where does it struggle? The organ is designed for music dating pre-Bach. 
             20th and 21st century music can also work well, but Reuben said it is not well suited for French organ. The organ is 
             very well crafted, and the maintenance required is surprisingly low, with the only slight concerns being humidity and 
             large jumps in temperature. The church is located on the corner of an intersection and the anterior doors are glass, 
             so there is noise interference from the street, but Reuben told me they installed a new set of glass doors at the end 
             of 2024 which significantly reduces the noise interference. </p>
 
-        <h3>Images</h3>
-        <div class="image-container">
-            <img src="image1.jpg" alt="SAMPLE TEXT" class="responsive-img">
-        </div>
+        <p> The organ at All Souls is colorful in tone, but what about organs colorful in physical appearance? The console of our next 
+            organ is decorated with colorful stop tabs and it has a wonderful variety of sounds as well. 
+        </p>
     
-        <h3>Links to Sources / More Information</h3>
-        <ul>
-            <li><a href="example.com" target="_blank">Organ Specifications</a></li>
-            <li><a href="example.com" target="_blank">Youtube</a></li>
-        </ul>
-
         <h1 id="trinity-pres">Trinity Presbyterian</h1>
 
-        <p>Prior to starting this project, I had never visited or even known about the Trinity Presbyterian organ. With the goal 
-            of examining church, theater, and stadium organs, I learned of Trinity Presbyterian’s theater organ. </p>
+        <div style="text-align: center;">
+        <img src="images/Trinity6.jpg" alt="FUU1" class="resized-img">
+        <img src="images/Trinity4.jpg" alt="FUU1" class="resized-img">
+        <img src="images/Trinity2.jpg" alt="FUU1" class="resized-img">
+        <img src="images/Trinity1.jpg" alt="FUU1" class="resized-img">
+        <p>Images from Sam Rudenberg's phone camera.</p>
+        </div>
 
-        <p>Trinity Presbyterian is located at 3902 Kenwood Dr., Spring Valley, California. The church’s organ is used both as a 
-            classical service instrument and theater organ for film screenings and concerts. </p>
+        <p> Prior to starting this project, I had never visited or even known about the Trinity Presbyterian organ. With the goal 
+            of examining church, theater, and stadium organs, I learned of Trinity Presbyterian’s theater organ.</p>
 
-        <p>Trinity Presbyterian is an A-frame church with two columns of pews leading up to the altar. The organ sits on a raised 
+        <p> Trinity Presbyterian is located at 3902 Kenwood Dr., Spring Valley, California. The church’s organ is used both as a 
+            classical service instrument and theater organ for film screenings and concerts.</p>
+
+        <p> Trinity Presbyterian is an A-frame church with two columns of pews leading up to the altar. The organ sits on a raised 
             platform at the front left. The original installation at the church was a combination of Wurlitzer’s Opus #0562 and 
-            #1520, which came from Chicago and Madison respectively. The two organs were bought in 1955, combined and were housed 
-            in Canada as well as Sacramento before moving to Trinity Presbyterian in 1996. Unfortunately, shortly after the organ 
-            was installed an arson fire destroyed the console and a considerable amount of the pipes. The organ was rebuilt by the 
-            ATOS San Diego chapter and is maintained to this day. </p> 
+            #1520, which came from Chicago and Madison respectively.<sup><a href="#cite12" id="ref12">12</a></sup> The two organs 
+            were bought in 1955, combined and were housed in Canada as well as Sacramento before moving to Trinity Presbyterian in 1996. 
+            Unfortunately, shortly after the organ was installed an arson fire destroyed the console and a considerable amount of the pipes. 
+            The organ was rebuilt by the ATOS San Diego chapter and is maintained to this day.<sup><a href="#cite13" id="ref13">13</a></sup></p> 
 
-        <p>I visited with Mike Williams and Russ Peck at Trinity Presbyterian on Thursday, January 9th, 2025. Mike Williams is a 
-            member of the ATOS San Diego chapter. He wasn’t a trained organist at the time but lived in the area when the Trinity 
-            Presbyterian organ was first begin installed and quickly gained interest. Today he enjoys attending events as well as 
-            learning to play the organ himself. Russ Peck is a trained theater organist and is currently the house organist at the 
-            Balboa Theater, where he plays several “Silent Movie Mondays” per year. Russ has also played a total of 11 seasons with 
-            the San Diego Symphony. </p> 
+        <p> I visited with Mike Williams and Russ Peck at Trinity Presbyterian on Thursday, January 9th, 2025. Mike Williams is a 
+            member of the ATOS San Diego chapter. He wasn’t a trained organist at the time but lived in the area when the Trinity Presbyterian organ 
+            was first begin installed and quickly gained interest. Today he enjoys attending events as well as learning to play the organ himself. 
+            Russ Peck is a trained theater organist and is currently the house organist at the Balboa Theater, where he plays several 
+            “Silent Movie Mondays” per year. Russ has also played a total of 11 seasons with the San Diego Symphony. </p> 
 
-        <p>Entering from the back of the building, the Wurlitzer is immediately on display at the front left. The front center is 
+        <p> Entering from the back of the building, the Wurlitzer is immediately on display at the front left. The front center is 
             tiered with rows for preachers and singers, and there are two columns of pews which make up the main body of the 
             church.</p> 
 
-        <p>All the pipes and systems are in the center back wall, with two access points: one at the back wall, and another in a 
+        <p> All the pipes and systems are in the center back wall, with two access points: one at the back wall, and another in a 
             room to the left of the console. Russ described to me that this organ may be one of the only ones in San Diego which 
             has temperature and humidity control not only for the building, but for the pipes/percussion room specifically (the 
             temperature is kept at 70, with 40% humidity). The actual pipes and percussion are a mixture between Wurlitzer brand 
             and the Robert Morton brand.</p> 
         
-        <p>The San Diego chapter of the ATOS built and maintains the organ, and Russ described to me that building theater organs 
+        <p> The San Diego chapter of the ATOS built and maintains the organ, and Russ described to me that building theater organs 
             was not a rigorously documented process but rather done through oral/memory/apprenticeships. After the arson fire, he 
             said it took a team of about ten members roughly one to two years of work to rebuild the instrument.</p> 
 
-        <p>The room behind the back wall houses the pipes and percussion, while the room to the left houses a Uniflex 3000 system. 
+        <p> The room behind the back wall houses the pipes and percussion, while the room to the left houses a Uniflex 3000 system. 
             The Uniflex system allows for the organ to save ‘infinite’ memory levels, where each user can make a profile and save 
             their own pistons.</p> 
 
-        <p>One of the first notable differences between a church organ and theater organs is the way the expression shutters work. 
+        <p> One of the first notable differences between a church organ and theater organs is the way the expression shutters work. 
             On many theater organs, this one included, the shutters open gradually as opposed to all at once. This allows for a 
             more gradual flutter, or a slamming effect. Other features unique to theater organs include double touch, the unique 
             horseshoe console shape, colored tabs, tilted keyboards, and sound effects.</p> 
 
-        <h3>Images</h3>
-        <div class="image-container">
-            <img src="image1.jpg" alt="SAMPLE TEXT" class="responsive-img">
-        </div>
-    
-        <h3>Links to Sources / More Information</h3>
-        <ul>
-            <li><a href="https://www.latos.org/trinity-church" target="_blank">Trinity Church</a></li>
-            <li><a href="https://sandiegohistory.org/collection/photographs/california/" target="_blank">California Theater</a></li>
-        </ul>
+        <p> Our last stop on this organ tour brings us outdoors, where we will trade church hymns and film scores for pop tunes 
+            and chants to rouse crowds. 
+        </p>
+
+        <h1 id="petco">Petco Park</h1>
+
+        <p> **This interview was not conducted in person and the Padres were not in season at the time, so I did not take any photos personally.
+            Please visit Bobby Cressey's social media for some behind the scenes photographs and videos.**  
+        </p> 
+
+        <p> In addition to being a musician, I identify as an athlete. Growing up, these two identities intertwined as I attended 
+            sporting events such as baseball games at Petco Park with my parents, but also with my middle school as we sang the national 
+            anthem with choirs across the city. As I look to return to San Diego after graduating, I plan to continue to pursue music and 
+            tie all my interests together, which leads us to stadium organ. Connecting with organist Bobby Cressey who plays stadium organ, 
+            I hoped to get a better idea of how stadium organ differs, what the role entails, and his path as a musician.</p>
+
+        <p> Petco Park is located at 100 Park Boulevard, San Diego, California. The venue serves as the home for the Padres baseball team as 
+            well as various concerts and events. A portable organ is attached to the audio system and used at baseball games. </p>
+
+        <p> The stadium was built in 2004 with a total capacity of 42,000.<sup><a href="#cite14" id="ref14">14</a></sup> The stadium was designed to incorporate the San Diego lifestyle; as 
+            opposed to east coast brick ball parks, the designers used stucco and sandstone to mimic the land and blue seats to mirror the sea. 
+            An open-bowl design angles fans towards the pitcher and home plate. Until 2010, the team did not have a live organist, but presently 
+            fans can find the portable organ right alongside them in the stands.</p>
+            
+        <p> In comparison to the other interviews which took place in person, I connected with Bobby Cressey over a phone call. Bobby’s music 
+            journey began with classical music as well as jazz, playing the keys.<sup><a href="#cite15" id="ref15">15</a></sup> He had no church organ experience, yet in his mid 20s he was 
+            introduced to the Hammond. In 2010, the Padres were looking for a stadium organist; Bobby pitched himself and landed the job.</p>
+
+        <p> I asked Bobby to tell me more about why he was originally interested in the role. The key ingredients: his jazz and pop background and 
+            love for baseball. So, what makes stadium organ different than playing for a church or theater and what specific skills does a stadium 
+            organist need on the job? Bobby explained that a stadium organist not only needs to know their music but have excellent people skills 
+            and be adaptable.</p>
+
+        <p> For repertoire, Bobby uses lead sheets as well as composes his own arrangements for a wide variety of purposes and genres. For example, 
+            at the beginning of games he has time to play a medley with pieces from 1900s to today, whereas in between plays he may throw in a 
+            short charge sequence to rally the crowd. Many of the tunes played feature clear bass lines with off beats in the left hand and melody 
+            in the right, comparable to the style of some theater organ pieces. During games, Bobby is constantly in communication with a DJ as 
+            well as game managers to coordinate when to play.</p>
+
+        <p> So how do stadium organs differ physically from church and theater organs? While stadium organ installations vary in many ways, one 
+            thing is certainly constant: with very few exceptions such as the Chicago Barton Organ and Atlantic City Hall, stadium organs are digital 
+            organs as opposed to pipe organs. The current organ at Petco Park is a Hammond SKX. It’s an all-electric, two manual with MIDI pedals 
+            encased in an old organ console. The other thing to consider is the acoustics of the space, as many stadiums are outdoors or in large 
+            indoor arenas. In order to combat sound interference from the city sounds and fan’s stadium organists often wear headphones to communicate 
+            with game managers and to be able to hear their own playing. 
+        </p>
+
+        <p> This concludes the journey through San Diego organs for now. Please visit the About tab on the website to learn more about the project.</p>
+
+        <h1 id="references">References</h1>
+
+        <p id="cite1">
+        <sup>1</sup> "About the La Jolla Pres Pipe Organ." La Jolla Presbyterian Church. November 6, 2018. <a href="https://ljpres.org/organ/" target="_blank">https://ljpres.org/organ/</a>.
+        <a href="#ref1">↩︎</a>
+        </p>
+
+         <p id="cite2"> 
+            <sup>2</sup> Jenny Yun (Church Organist at La Jolla Presbyterian). In discussion with Sam Rudenberg. January 13, 2025. Interview.
+            <a href="#ref2">↩︎</a>
+        </p>
+
+        <p id="cite3">
+        <sup>3</sup> “New Organs.” The Diapason, n.d. <a href="https://www.thediapason.com/new-organs-77." target="_blank">https://www.thediapason.com/new-organs-77."</a>
+        <a href="ref3">↩︎</a>
+        </p>
+
+        <p id="cite4">
+        <sup>4</sup> Tómas Acosta (Organist at First Unitarian Universalist Church). In discussion with Sam Rudenberg. January 5, 2025. Interview.
+        <a href="#ref4">↩︎</a>
+        </p>
+
+        <p id="cite5">
+        <sup>5</sup> “Music.” First UU Church of San Diego, n.d. <a href="https://www.firstuusandiego.org/music.html." target="_blank">https://www.firstuusandiego.org/music.html.</a>
+        <a href="#ref5">↩︎</a>
+        </p>
+
+        <p id="cite6">
+        <sup>6</sup> Guadalupe Rios (Church Organist at the Immaculata). In discussion with Sam Rudenberg. January 7, 2025. Interview.
+        <a href="#ref6">↩︎</a>
+        </p>
+
+        <p id="cite7">
+        <sup>7</sup> Granger, J. (1998, April 9). “Secrets Behind San Diego Pipe Organs – Spreckels, First Methodist, St. Brigid’s”. San Diego Reader
+        <a href="#ref7">↩︎</a>
+        </p>
+
+        <p id="cite8">
+        <sup>8</sup> American Guild of Organists San Diego Chapter. "Area Organs." <a href="https://www.agosd.org/resources/area-organs." target="_blank">https://www.agosd.org/resources/area-organs.</a>
+        <a href="#ref8">↩︎</a>
+        </p>
+
+        <p id="cite9">
+        <sup>9</sup> Sarah Amos (Church Organist at First United Methodist Church). In discussion with Sam Rudenberg. January 7, 2025. Interview.
+        <a href="#ref9">↩︎</a>
+        </p>
+
+        <p id="cite10">
+        <sup>10</sup> “Music.” All Souls Point Loma, n.d. <a href="https://www.allsoulspointloma.org/music." target="_blank">https://www.allsoulspointloma.org/music.</a>
+        <a href="#ref10">↩︎</a>
+        </p>
+
+        <p id="cite11">
+        <sup>11</sup> Rueben Valenzuela (Church Organist at All Souls Episcopal Church). In discussion with Sam Rudenberg. January 7, 2025. Interview.
+        <a href="#ref11">↩︎</a>
+        </p>
+
+        <p id="cite12">
+        <sup>12</sup> “Trinity Church.” Los Angeles Theatre Organ Society - Trinity Church. 
+        <a href="https://www.latos.org/trinity-church." target="_blank">https://www.latos.org/trinity-church.</a>
+        <a href="#ref12">↩︎</a>
+        </p>
+
+        <p id="cite13">
+        <sup>13</sup> Russ Peck and Mike Williams (House Organist at Balboa Theater and TOSSD Member). In discussion with Sam Rudenberg. January 9, 2025. Interview.
+        <a href="#ref13">↩︎</a>
+        </p>
+
+        <p id="cite14">
+        <sup>14</sup>“Petco Park: A Ballpark, San Diego Style - San Diego History Center: San Diego, CA: Our City, Our Story.” 
+        San Diego History Center | San Diego, CA | Our City, Our Story, October 2, 2020. 
+        <a href="https://sandiegohistory.org/journal/2020/october/petco-park-a-ballpark-san-diegostyle/." target="_blank">https://sandiegohistory.org/journal/2020/october/petco-park-a-ballpark-san-diegostyle/.</a>
+        <a href="#ref14">↩︎</a>
+        </p>
+
+        <p id="cite15">
+        <sup>15</sup> Bobby Cressey (Stadium Organist at Petco Park). In discussion with Sam Rudenberg. January 22, 2025. Interview. 
+        <a href="#ref15">↩︎</a>
+        </p>
 
     </section>
     
@@ -503,8 +629,69 @@
     </section> 
     
     <section id="contact" class="content">
-        <p>Contact Me:</p>
-        <a href="mailto:rudenber@grinnell.edu">Email</a></li>
+
+        <p><strong>About Me</strong></p>
+
+        <p> San Diego born Sam Rudenberg is a soon to be graduate of Grinnell College in Iowa, where he studies Music, 
+            Computer Science, and Statistics, while competing on the tennis team and participating in music
+            on campus.</p>
+
+        <p>He was first introduced to the organ in elementary school, beginning lessons in third grade at St. Paul's 
+            Lutheran Church and School in San Diego. Growing up, he had opportunities to play a variety of different 
+            organ installations in recitals, church services, and competitions such as the AGO scholarships and Junior 
+            Bach Festival.</p>
+
+        <p>After high school, he moved to Grinnell, Iowa for college and continued to study the organ, playing studio 
+            recitals as well as serving as a substitute for local churches. While in college, he has found great joy in 
+            sharing the instrument with others; when he introduces friends to the organ, the questions they ask inspire 
+            him to further his knowledge of the instrument.</p>
+            
+        <p>Thinking ahead for life after undergrad, his goal was to design a project which built on his knowledge, 
+            experiences, and connections in both music and technology in Grinnell as well as San Diego. He hopes to pursue 
+            a career in tech, while continuing to play music for church services, and perhaps break into theater and/or 
+            stadium organ. He recognize all the opportunities he has been given, and hopes this project will be a way of 
+            giving back to the organ community, as well as to introduce the instrument to a wider audience.</p>
+
+        <p><strong>Mapping San Diego Organs</strong></p>
+
+        <p> This project consists of a three-pronged output including a long version paper, magazine submission, and this website.
+            The paper contains a literature review, justification for "Why San Diego", an overview of the types of organs, 
+            individual analysis and interviews of San Diego organs and their organists, and future directions. 
+
+            The full length paper can be accessed here: <a href="MappingSanDiegoOrgans.pdf" download>Mapping San Diego Organs: Church, Theater and Stadium</a>
+            
+        </p>
+
+        <p> This website was designed to support the paper, providing visuals of each organ and a map to situate each installation 
+            relative to the others.</p>
+
+        <p><strong>Abstract</strong></p>
+
+        <p> From church services to symphonies, ballparks to pavilions, the organ is an integral part 
+            of San Diego life. The American Guild of Organists San Diego Chapter recognizes 21 organs in 
+            the area, including Copley Symphony Hall, Spreckels Organ Pavilion, and St. Paul’s Lutheran
+            Church among others. Organs can also be found in sports settings, such as Petco Park, home of
+            the San Diego Padres. How did these organs find their way into churches, parks, and sports
+            venues, and what impact do they have on the city of San Diego?</p>
+
+        <p> In early January 2025, I set out to interview San Diego organists and visit the organs they play, 
+            specifically targeting at least one of each type of organ (church/theater/stadium).
+
+            From my visits, I was left with several overarching themes: 
+
+            <ul>
+            <li>How many musicians who play the organ identify as organists?</li>
+            <li>How do audiences differ across the three types of organs? </li>
+            <li>How is the organ used as a tool to bring people of different backgrounds together? </li>
+            <li>To what degree is organ music intertwined with the culture of San Diegans? </li>
+            </ul>
+            
+            What will the future of organs look like in San Diego? Throughout the interviews 
+            I conducted, one thing remained constant: organ is greatly appreciated by the San Diego community, yet it
+            will take work to keep the pipes sounding. </p>
+
+</p>
+        <p>Contact Me: <a href="mailto:samrudenberg@gmail.com">samrudenberg@gmail.com</a></p>
     </section>
 </body>
 </html> 
